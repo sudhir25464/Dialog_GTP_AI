@@ -41,13 +41,14 @@ At DialogGTP, we're redefining how you connect with technology. Our AI platform 
         
         
         <div className="flex flex-col md:flex-row justify-center gap-5">
+          <Link to='/gtpresponce'>
           <button
-            onClick={ClickNavigate}
+          
             className="bg-blue-600 button text-white px-6 py-3 rounded-lg mb-4 md:mb-0 hover:bg-blue-700 shadow-md"
           >
             Get start D*GTP
           </button>
-
+</Link>
           <Link to="/helplearnmore">
           <button className="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 shadow-md"
           
