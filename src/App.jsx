@@ -11,8 +11,8 @@ function App() {
   <>
   <Routes>
     <Route exact path="/" element={<Home/>}/>
-    <Route exact path="/Gtp-responce" element={<MainGtpComponents />}/>
-    <Route exact path='/help-learn.more' element={<Faq/>}/>
+    <Route exact path="gtpresponce" element={<MainGtpComponents />}/>
+    <Route exact path='helplearnmore' element={<Faq/>}/>
     </Routes>
 
   {/* <Sidebar/>

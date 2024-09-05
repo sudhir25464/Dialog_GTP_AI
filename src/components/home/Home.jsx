@@ -6,14 +6,14 @@ const Home = () => {
   const navigate = useNavigate();
 
   const ClickNavigate = () => {
-    window.open('/Gtp-responce', '_blank');
+    window.open('gtpresponce', '_blank');
   };
 
 
   
 
   const ClicklearnMore = () => {
-    window.open('/help-learn.more', '_blank');
+    window.open('helplearnmore', '_blank');
   };
   return (
     <div
@@ -52,7 +52,7 @@ At DialogGTP, we're redefining how you connect with technology. Our AI platform 
             Learn About GTP
           </button>
         </div>
-      </div>``
+      </div>
     </div>
   );
 };
