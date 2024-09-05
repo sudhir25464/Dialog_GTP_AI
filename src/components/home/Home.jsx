@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import  { assets } from '../../assets/assets';
 
 const Home = () => {
@@ -15,6 +15,8 @@ const Home = () => {
   const ClicklearnMore = () => {
     window.open('helplearnmore', '_blank');
   };
+
+
   return (
     <div
       className="min-h-screen flex w-full justify-center items-center text-center p-6 bg-cover bg-center relative"
@@ -45,12 +47,17 @@ At DialogGTP, we're redefining how you connect with technology. Our AI platform 
           >
             Get start D*GTP
           </button>
+
+          <Link to="/helplearnmore">
           <button className="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 shadow-md"
           
-          onClick={ClicklearnMore}
+      
           >
+
+
             Learn About GTP
           </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -10,9 +10,9 @@ function App() {
   return (
   <>
   <Routes>
-    <Route exact path="/" element={<Home/>}/>
-    <Route exact path="gtpresponce" element={<MainGtpComponents />}/>
-    <Route exact path='helplearnmore' element={<Faq/>}/>
+    <Route  path="/" element={<Home/>}/>
+    <Route  path="/gtpresponce" element={<MainGtpComponents />}/>
+    <Route  path='/helplearnmore' element={<Faq/>}/>
     </Routes>
 
   {/* <Sidebar/>
