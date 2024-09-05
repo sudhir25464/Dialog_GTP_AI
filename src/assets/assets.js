@@ -12,7 +12,7 @@ import AIlogo from './creative.png';
 import HomeBg from './Aibg.jpg';
 import chat1 from './chat1.png';
 import sendBtn from './send.png';
-import ideaSMS from'./ideaSMS.png';
+import ideaSMS from'./idea.png';
 import Aihandshake from './robotHandshake.jpg'
 export const assets = {
     help,
