@@ -162,3 +162,10 @@ background-color: blue;
     
     }
 }
+@media  (min-width:768px) {
+    .phone-screen{
+        display: flex;
+        justify-content:center;
+    
+    } 
+}

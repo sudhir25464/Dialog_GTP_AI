@@ -63,7 +63,7 @@ const Main = () => {
                                 <p>How Can  DialogGTP Help you !</p>
                             </div>
 
-                            <div className='cards mb-2'>
+                            {/* <div className='cards mb-2'>
 
                                 <div className='card'>
                                     <p>Create Your Plan and Design with AI-Powered Assistance!</p>
@@ -85,7 +85,7 @@ const Main = () => {
 
 
 
-                            </div>
+                            </div> */}
                         </>
 
                         :
